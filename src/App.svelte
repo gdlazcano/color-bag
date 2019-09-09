@@ -27,3 +27,4 @@
 
 <h2>Pick a color</h2>
 <input type="color" bind:value={color} id="picker" />
+<p>&copy; 2019 Gabriel Lazcano @gnugl<p>
