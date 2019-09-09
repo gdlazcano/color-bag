@@ -2,40 +2,6 @@
   let color = "#0000";
 </script>
 
-<style>
-  #container {
-    height: 100%;
-    width: 100%;
-  }
-
-  #product-svg {
-    position: relative;
-    z-index: 2;
-    mix-blend-mode: multiply;
-  }
-
-  #background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-  }
-  #space {
-    fill: white;
-  }
-  #picker {
-    width: 100%;
-    height: 100px;
-    margin: auto;
-    border: 1px solid black;
-  }
-  h2 {
-    text-align: center;
-  }
-</style>
-
 <div id="container">
   <svg
     viewBox="0 0 1000 1000"
